@@ -2,10 +2,26 @@
     android:shareInterpolator="false"
     android:fillAfter="false" >
   <alpha
+      android:duration="1000"
+      android:fromAlpha="0.0"
+      android:toAlpha="1.0"/>
       <!--TODO: finish fading animation-->
-      />
+
 
   <rotate
+      android:duration="1000"
+      android:fromDegrees="0"
+      android:toDegrees="360"/>
   <!--TODO: finish rotating animation-->
-    />
+    <translate
+        android:duration="500"
+        android:fromYDelta="0%p"
+        android:toYDelta="17%p"
+        android:fromXDelta="0%p"
+        android:toXDelta="-40%p"
+        android:startOffset="1000"
+        >
+
+    </translate>
+
 </set>
